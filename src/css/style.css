@@ -1,0 +1,87 @@
+header {
+    height: 63px;
+    background-color: #e9e9e9;
+    padding-top: 28px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.logo {
+    width: 31px;
+}
+.menu {
+    width: 51%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_item {
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+.menu_item:last-child {
+    padding-right: 0px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+.main {
+    min-height: 607px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container {
+    width: 36%;
+    float: right;
+    /* float: center; */
+}
+.main_header {
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.main_subheader {
+    margin-bottom: 42px;
+    line-height: 25px;
+    color: #808080;
+    font-size: 18px;
+}
+
+.main_btn {
+    width: 180px;
+    height: 54px;
+    background-color: #10c9c3;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.inform {
+    min-height: 420px;
+    padding: 100px 20px;
+}
+.inform_information {
+    text-align: center;
+}
+.inform_information_header {
+    margin-bottom: 37px;
+    line-height: 25px;
+}
+
+.inform_information_text {
+    padding: 0;
+    line-height: 25px;
+    margin-bottom: 37px;
+
+}
